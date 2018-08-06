@@ -19,7 +19,7 @@ urllib3.disable_warnings()
 post_list = []
 url_list = []
 
-def beauty_ptt():
+def getUrl():
     # https://www.ptt.cc/bbs/Beauty/index2600.html
     page_num = random.randint(2000,2600)
     urllib3.contrib.pyopenssl.inject_into_urllib3()
@@ -27,7 +27,7 @@ def beauty_ptt():
     response = http.request('GET', url)
     soup = BeautifulSoup(response.data,'html.parser')
 
-
+    f = open("url_list.txt", "a")
     
     for a_tag in soup.select('a'):
         # format
@@ -45,11 +45,12 @@ def beauty_ptt():
             # format
             # <a href="http://i.imgur.com/e5UD40k.jpg" rel="nofollow" target="_blank">http://i.imgur.com/e5UD40k.jpg</a>
             # print(a_tag)
-            match = re.search(r'<a href="http://i\.imgur\.com/(.*?)"',str(a_tag))
+            match = re.search(r'<a href="http(s)?://(i\.)?imgur\.com/(.*?)\.jpg"',str(a_tag))
             if match:
-                print('http://imgur.com/'+match.group(1))
-        break
+                image_url = 'https://imgur.com/'+match.group(3)+'.jpg'
+                f.write(image_url+'\n')
+        
 
-beauty_ptt()
+getUrl()
     
 # return final_url

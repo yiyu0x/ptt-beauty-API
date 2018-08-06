@@ -1,25 +1,22 @@
+import random
 from flask import Flask, jsonify
- 
+
+
 app = Flask(__name__)
  
-tasks = [
-    {
-        'id': 1,
-        'title': u'OSPA',
-        'description': u'This is ospaf-api test', 
-        'done': False
-    },
-    {
-        'id': 2,
-        'title': u'Garvin',
-        'description': u'I am garvin', 
-        'done': False
-    }
-]
- 
 @app.route('/', methods=['GET'])
+
 def home():
-    return jsonify({'tasks': tasks})
+    f = open('url_list.txt')
+    lines = f.readlines()
+    max_line = len(lines)
+    ranline = random.randint(0,max_line)
+    
+    data = {
+        'url':lines[ranline][:-1]
+    }
+
+    return jsonify(data)
  
 if __name__ == '__main__':
     app.run(debug=True)
