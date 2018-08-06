@@ -1,4 +1,5 @@
 import random
+from task import timedTask
 from flask import Flask, jsonify
 
 
@@ -20,3 +21,4 @@ def home():
  
 if __name__ == '__main__':
     app.run(debug=True)
+    timedTask()
