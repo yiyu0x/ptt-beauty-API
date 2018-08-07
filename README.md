@@ -1,7 +1,7 @@
 # ptt-beauty-API
 💻 PTT表特版自動撈圖API 🤖️
 
-
+A api can give you beauty girl photo from ptt (A popular forum in Taiwan)
 
 ## usage
 
@@ -24,4 +24,4 @@ run it / 執行
 
 ### build with docker
 
-> `docker run -d -p 5000:5487 yiyu0x/ptt-beauty-api:1.0`
+> docker run -d -p 5000:5487 yiyu0x/ptt-beauty-api:1.0
