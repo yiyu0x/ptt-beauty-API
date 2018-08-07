@@ -9,15 +9,19 @@
 
 [http://178.128.61.189:5487/](http://178.128.61.189:5487/)
 
-This demo site at any time may not available . / 展示網站隨時有可能不能連線
+This demo site at any time may not available .
 
-### build on your server / 自己架在主機上
+### build on your server 
 
-clone repo  / 下載 repo
+clone repo  
 > git clone https://github.com/yiyu0x/ptt-beauty-API.git && cd ptt-beauty-API
 
-install package / 安裝所需套件
+install packages
 > pip3 install -r requirements.txt
 
 run it / 執行
 > python3 main.py
+
+### build with docker
+
+> `docker run -d -p 5000:5487 yiyu0x/ptt-beauty-api:1.0`
