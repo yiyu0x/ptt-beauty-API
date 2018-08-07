@@ -9,7 +9,7 @@ A api can give you beauty girl photo from ptt (A popular forum in Taiwan)
 
 [http://178.128.61.189:5487/](http://178.128.61.189:5487/)
 
-This demo site at any time may not available .
+This demo site may not available at any time .
 
 ### build on your server 
 
