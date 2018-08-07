@@ -11,6 +11,8 @@ A api can give you beauty girl photo from ptt (A popular forum in Taiwan)
 
 This demo site may not available at any time .
 
+![shot](https://i.imgur.com/qvA4n6Z.png)
+
 ### build on your server 
 
 clone repo  
