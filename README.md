@@ -3,15 +3,15 @@
 
 A api can give you beauty girl photo from ptt (A popular forum in Taiwan)
 
-## usage
-
-### demo
+## demo
 
 [http://178.128.61.189:5000/](http://178.128.61.189:5000/)
 
 This demo site may not available at any time .
 
 ![shot](https://i.imgur.com/qvA4n6Z.png)
+
+## usage
 
 ### build on your server 
 
