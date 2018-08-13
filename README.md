@@ -18,7 +18,7 @@ This demo site may not available at any time .
 ## random give a image url
 > http://178.128.61.189:5000
 
-## random giva many images url
+## random give many images url
 > http://178.128.61.189:5000/times/<number>
  
 (number range just support 1 ~ 100)
