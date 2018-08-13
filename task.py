@@ -1,6 +1,6 @@
 from datetime import datetime 
 from get_image import getUrl
-import time 
+import time
 import os
 
 # 60*30 , every 30 minutes will update
