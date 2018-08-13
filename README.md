@@ -13,7 +13,17 @@ This demo site may not available at any time .
 
 ## usage
 
-### build on your server 
+### api usage
+
+## random give a image url
+> http://178.128.61.189:5000
+
+## random giva many images url
+> http://178.128.61.189:5000/times/<number>
+ 
+(number range just support 1 ~ 100)
+
+### build service on your server 
 
 clone repo  
 > git clone https://github.com/yiyu0x/ptt-beauty-API.git && cd ptt-beauty-API
