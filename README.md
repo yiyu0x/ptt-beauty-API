@@ -33,7 +33,7 @@ install packages
 > pip3 install -r requirements.txt
 
 run it / 執行
-> python3 main.py
+> python3 app.py
 
 ### build with docker
 
