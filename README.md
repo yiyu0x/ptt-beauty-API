@@ -15,10 +15,10 @@ This demo site may not available at any time .
 ## api usage
 
 ### random give a image url
-> http://178.128.61.189:5000
+> http://ip:5000
 
 ### random give many images url
-> http://178.128.61.189:5000/times/<number>
+> http://ip:5000/times/<number>
  
 (number range just support 1 ~ 100)
 
