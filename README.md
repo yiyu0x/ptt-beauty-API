@@ -11,17 +11,18 @@ This demo site may not available at any time .
 
 ![shot](https://i.imgur.com/qvA4n6Z.png)
 
-## usage
 
-### api usage
+## api usage
 
-## random give a image url
+### random give a image url
 > http://178.128.61.189:5000
 
-## random give many images url
+### random give many images url
 > http://178.128.61.189:5000/times/<number>
  
 (number range just support 1 ~ 100)
+
+## build
 
 ### build service on your server 
 
