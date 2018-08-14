@@ -18,7 +18,7 @@ This demo site may not available at any time .
 > http://ip:5000
 
 ### random give many images url
-> http://ip:5000/times/<number>
+> http://ip:5000/times/<number\>
  
 (number range just support 1 ~ 100)
 
