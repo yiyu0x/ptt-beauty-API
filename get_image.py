@@ -12,6 +12,7 @@ import urllib3
 import urllib3.contrib.pyopenssl
 import random
 import re
+import sys
 http = urllib3.PoolManager()
 urllib3.disable_warnings()
 
@@ -49,8 +50,13 @@ def getUrl():
             if match:
                 image_url = 'https://imgur.com/'+match.group(3)+'.jpg'
                 f.write(image_url+'\n')
-        
 
-getUrl()
-    
-# return final_url
+try:
+    if len(sys.argv) == 1 :
+        getUrl()
+    else :
+        times = int(sys.argv[1])
+        for i in range(times) :
+            print('x')
+except Exception as e:
+    print(e)
