@@ -1,5 +1,5 @@
 # ptt-beauty-API
-💻 PTT表特版自動撈圖API 🤖️
+💻 PTT表特版自動回傳圖片網址API 🤖️
 
 A api can give you beauty girl photo from ptt (A popular forum in Taiwan)
 
