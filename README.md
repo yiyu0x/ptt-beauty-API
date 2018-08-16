@@ -37,4 +37,4 @@ run it / 執行
 
 ### build with docker
 
-> docker run -d -p 5000:5487 yiyu0x/ptt-beauty-api:2.0
+> docker run -d -p 5000:5487 yiyu0x/ptt-beauty-api:2.1
