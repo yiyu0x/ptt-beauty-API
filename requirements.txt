@@ -1,4 +1,4 @@
 beautifulsoup4==4.6.0
 pyOpenSSL==18.0.0
 Flask==1.0.2
-urllib3==1.22
+urllib3==1.23
