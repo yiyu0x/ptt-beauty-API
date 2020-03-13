@@ -35,3 +35,8 @@ run it / 執行
 ### build with docker
 
 > docker run -d -p 5000:5487 yiyu0x/ptt-beauty-api:2.1
+
+
+### build with compose
+(docker-compose.yml 第 22 行記得改為 server ip)
+> docker-compose up --scale api=3 -d
