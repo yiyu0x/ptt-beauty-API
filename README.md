@@ -12,10 +12,10 @@ A api can give you beauty girl photo from ptt (A popular forum in Taiwan)
 ## api usage
 
 ### random give a image url
-> http://ip:5000
+> http://ip:5001
 
 ### random give many images url
-> http://ip:5000/times/<number\>
+> http://ip:5001/times/<number\>
  
 (number range just support 1 ~ 100)
 
@@ -34,7 +34,7 @@ run it / 執行
 
 ### build with docker
 
-> docker run -d -p 5000:5487 yiyu0x/ptt-beauty-api:2.1
+> docker run -d -p 5001:5487 yiyu0x/ptt-beauty-api:2.1
 
 
 ### build with compose
